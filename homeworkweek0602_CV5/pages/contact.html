@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" type="text/css" href="/styles/style.css" />
+    <link rel="stylesheet" type="text/css" media="screen and (min-width: 500px)" href="/styles/tablet.css" />
+    <link rel="stylesheet" type="text/css" media="screen and (min-width: 720px)" href="/styles/laptop.css" />
+
+    <!-- Primary meta tags -->
+    <title>Jon Pitans - Web Designer Software Engineer Javascript Developer</title>
+    <meta name="title" content="Jon Pitans Web Designer">
+    <meta name="description" content="Creating beautiful bespoke websites and innovative business solutions">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://jon-pitans-cv-v5.netlify.app/">
+    <meta property="og:title" content="JP Web Design">
+    <meta property="og:description" content="Creating beautiful bespoke websites and innovative business solutions">
+    <meta property="og:image" content="/meta-images/slashjp-logo-500w.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://jon-pitans-cv-v2.netlify.app/">
+    <meta property="twitter:title" content="JP Web Design">
+    <meta property="twitter:description" content="Creating beautiful bespoke websites and innovative business solutions">
+    <meta property="twitter:image" content="/meta-images/slashjp-logo-500w.png">
+
+    <!-- Favicon Code -->
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/meta-images/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/meta-images/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/meta-images/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/meta-images/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="/meta-images/apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/meta-images/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="/meta-images/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/meta-images/apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="/meta-images/favicon-196x196.png" sizes="196x196" />
+    <link rel="icon" type="image/png" href="/meta-images/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="/meta-images/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="/meta-images/favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="/meta-images/favicon-128.png" sizes="128x128" />
+    <meta name="application-name" content="&nbsp;"/>
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-TileImage" content="/meta-images/mstile-144x144.png" />
+    <meta name="msapplication-square70x70logo" content="/meta-images/mstile-70x70.png" />
+    <meta name="msapplication-square150x150logo" content="/meta-images/mstile-150x150.png" />
+    <meta name="msapplication-wide310x150logo" content="/meta-images/mstile-310x150.png" />
+    <meta name="msapplication-square310x310logo" content="/meta-images/mstile-310x310.png" />
+    <!-- End of Favicon Code -->
+</head>
+<body>
+    <header>
+        <div class="image-header">
+        <h1>Jon Pitans</h1>
+        <p>Web Designer | Software Engineer | Javascript Developer</p>
+        </div>
+        <div class="animation" aria-hidden="true">
+            <div class="web-designer">Web Designer</div>
+            <div class="software-engineer">Software Engineer</div>
+            <div class="javascript-developer">Javascript Developer</div>
+            <div class="jon-pitans">Jon Pitans</div>
+        </div>
+
+    </header>
+    <main>
+        <nav>
+            <a href="/index.html">About Me</a>
+            <a href="/pages/portfolio.html">Portfolio</a>
+            <a href="/pages/contact.html">Contact</a>
+            <a href="/pages/cv.html">CV</a>
+        </nav>
+        <article>
+            <h2>Contact</h2>
+            <form class="contact" method="POST" action="https://us-central1-fir-ac2be.cloudfunctions.net/formReader">
+                
+                
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required />
+                   
+                        <label for="org">Organisation</label>
+                        <input type="text" id="org" name="org" />
+                  
+                        <label for="tel">Telephone</label>
+                        <input type="tel" id="tel" name="tel" required />
+                  
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required />
+                  
+                        <label for="message">Type your message here</label>
+                        <textarea id="message" name="message" rows="6" cols="60" required placeholder="This contact form is currently in the testing phase and is not connected to a server. To contact me please use the contact details in the Personal Information section of this page."></textarea>
+                <div class="button-wrapper">
+                <button type="submit">Submit</button>
+                </div>
+            </form>
+        </article>
+    </main>
+    <footer>
+        <div class="socials">
+        <a class="facebook" href="https://www.facebook.com/Jon-Pitans-Web-Developer-106570028528635" target="_blank" rel="nofollow">Facebook</a>
+        <a class="twitter" href="https://twitter.com/jonpitans" target="_blank" rel="nofollow">Twitter</a>
+        <a class="linkedin" href="https://www.linkedin.com/in/jon-pitans-35b6281b/" target="_blank" rel="nofollow">Linkedin</a>
+        </div>
+        <div class="copyright">
+        <p>&copy; Copyright 2021 Jon Pitans</p>
+        </div>
+    </footer>
+</body>
+</html>

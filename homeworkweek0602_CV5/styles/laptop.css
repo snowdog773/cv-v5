@@ -1,0 +1,143 @@
+:root {
+    --white: #dedede;
+    --light-text: #555555;
+    --dark-header: #121212;
+    --white-text: #efefef;
+    --button: #242424;
+}
+
+@font-face {
+    font-family: roboto-header;
+    src: url(/fonts/Roboto-Black.ttf);
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: link;
+    src: url(/fonts/Roboto-Light.ttf);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: roboto;
+    src: url(/fonts/Roboto-Medium.ttf);
+}
+
+@keyframes typing {
+    0% { width: 0;}
+    100% { width: 100%;}
+}
+
+.jon-pitans {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: var(--dark-header);
+    animation: typing 2s;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0 auto;
+    animation-delay: 3s;
+    animation-fill-mode: backwards;
+}
+
+.web-designer {
+    animation: typing 2s;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0 auto;
+    animation-fill-mode: backwards;
+}
+
+.javascript-developer {
+    animation: typing 2s;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0 auto;
+    animation-delay: 2s;
+    animation-fill-mode: backwards;
+}
+
+.software-engineer {
+    animation: typing 2s;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0 auto;
+    animation-delay: 1s;
+    animation-fill-mode: backwards;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 50%;
+    padding-top: 10px;
+    justify-content: space-around;
+    background: var(--white);
+    
+}
+
+nav a {
+    background: unset;
+    color: var(--dark-header);
+    font-family: roboto;
+    transition: 0.5s;
+}
+
+nav a:hover {
+    filter: drop-shadow(4px 4px 2px #222);
+    transition: 0.4s;
+}
+
+header {
+    width: 100%;
+    display: flex;
+}
+
+header .image-header {
+    width: 50%;
+    height: 375px;
+    margin-left: 0px;
+    border-bottom-right-radius: 250px;
+    border-top-right-radius: 250px;
+}
+
+header .animation {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 150px;
+    width: 50%;
+    font-family: roboto;
+    font-size: 1.5em;
+    text-align: right;
+    color: var(--light-text);
+    padding-right: 10%;
+}
+
+header .animation div {
+    width: 100%;
+}
+
+
+
+header h1 {
+    height: 0;
+    overflow: hidden;
+}
+
+header p {
+    height: 0;
+    overflow: hidden;
+}
+
+main {
+    margin: 100px 30% 0 10%;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

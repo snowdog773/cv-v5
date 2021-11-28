@@ -1,0 +1,37 @@
+/* Print version CSS */
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header {
+    display: none;
+}
+
+article::before {
+    content: "Jon Pitans";
+    text-align: center;
+    font-size: 3em;
+}
+
+
+main {
+width: 80%;
+text-align: justify;
+display: block;
+margin: 0 auto;
+}
+
+h2 {
+    font-weight: 300;
+    margin-top: 60px;
+}
+
+.block-frame {
+    display: none;
+}
+
+
+
+.print-hide {
+    display: none;
+}
