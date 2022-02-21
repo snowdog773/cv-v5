@@ -8,19 +8,19 @@
 
 @font-face {
   font-family: roboto-header;
-  src: url(/fonts/Roboto-Black.ttf);
+  src: url(../fonts/Roboto-Black.ttf);
   font-weight: 900;
 }
 
 @font-face {
   font-family: link;
-  src: url(/fonts/Roboto-Light.ttf);
+  src: url(../fonts/Roboto-Light.ttf);
   font-weight: 300;
 }
 
 @font-face {
   font-family: roboto;
-  src: url(/fonts/Roboto-Medium.ttf);
+  src: url(../fonts/Roboto-Medium.ttf);
 }
 
 @keyframes typing {
@@ -136,6 +136,10 @@ header p {
 
 main {
   margin: 100px 30% 0 10%;
+}
+
+.flex-container {
+  grid-template-columns: 1fr 1fr;
 }
 
 footer {

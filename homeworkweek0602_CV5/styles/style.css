@@ -8,19 +8,19 @@
 
 @font-face {
   font-family: roboto-header;
-  src: url(/fonts/Roboto-Black.ttf);
+  src: url(fonts/Roboto-Black.ttf);
   font-weight: 900;
 }
 
 @font-face {
   font-family: link;
-  src: url(/fonts/Roboto-Light.ttf);
+  src: url(fonts/Roboto-Light.ttf);
   font-weight: 300;
 }
 
 @font-face {
   font-family: roboto;
-  src: url(/fonts/Roboto-Medium.ttf);
+  src: url(fonts/Roboto-Medium.ttf);
 }
 
 html {
@@ -49,7 +49,7 @@ header .image-header {
   display: block;
   text-align: center;
   color: var(--white-text);
-  background-image: url(/assets/jon-dark-mixer.jpg);
+  background-image: url(../assets/jon-dark-mixer.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -144,7 +144,7 @@ footer a.facebook {
   height: 0;
   overflow: hidden;
   padding-top: 30px;
-  background-image: url(/assets/icon-facebook.svg);
+  background-image: url(../assets/icon-facebook.svg);
   background-position: center;
   background-repeat: no-repeat;
   transition: 0.5s;
@@ -154,7 +154,7 @@ footer a.twitter {
   height: 0;
   overflow: hidden;
   padding-top: 30px;
-  background-image: url(/assets/icon-twitter.svg);
+  background-image: url(../assets/icon-twitter.svg);
   background-position: center;
   background-repeat: no-repeat;
   transition: 0.5s;
@@ -164,7 +164,7 @@ footer a.linkedin {
   height: 0;
   overflow: hidden;
   padding-top: 30px;
-  background-image: url(/assets/icon-linkedin.svg);
+  background-image: url(../assets/icon-linkedin.svg);
   background-position: center;
   background-repeat: no-repeat;
   transition: 0.5s;
@@ -219,27 +219,34 @@ button {
 }
 
 .flex-container {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 100%;
 }
 
 .portfolio-frame {
-  flex: 1;
   display: block;
   margin: 0 auto;
-  width: 80%;
+  width: 100%;
   padding: 20px;
-  overflow: hidden;
 }
-.portfolio-frame iframe {
+
+.portfolio-frame img {
+  display:block;
+  margin: 0 auto;
+  width: 100%;
+  border-radius: 10px;
+}
+/* .portfolio-frame iframe {
   display: block;
   margin: 0 auto;
+ */
+  /* width: 200%;
+  height: 200%; 
 
-  width: 200%;
-  height: 200%;
-
-  transform: scale(0.5);
-  transform-origin: 0 0; /* centre by default */
+   transform: scale(0.5);
+   transform-origin: 0 0; */
+   /* centre by default */
 
   /* zoom: 0.75;
   -ms-zoom: 0.75;
@@ -249,14 +256,10 @@ button {
   -o-transform-origin: 0 0;
   -webkit-transform: scale(0.75);
   -webkit-transform-origin: 0 0; */
-}
+/* } */
 
 figcaption {
   text-align: center;
   margin: 20px;
 }
 
-figcaption a {
-  text-decoration: underline;
-  text-align: center;
-}
