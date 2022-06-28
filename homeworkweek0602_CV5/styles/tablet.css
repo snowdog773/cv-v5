@@ -1,52 +1,52 @@
 :root {
-    --white: #dedede;
-    --light-text: #555555;
-    --dark-header: #121212;
-    --white-text: #efefef;
-    --button: #242424;
+  --white: #fff;
+  --light-text: #555555;
+  --dark-header: #121212;
+  --white-text: #efefef;
+  --button: #242424;
 }
 @font-face {
-    font-family: roboto-header;
-    src: url(../fonts/Roboto-Black.ttf);
-    font-weight: 900;
-}
-
-@font-face {
-    font-family: link;
-    src: url(../fonts/Roboto-Light.ttf);
-    font-weight: 300;
+  font-family: roboto-header;
+  src: url(../fonts/Roboto-Black.ttf);
+  font-weight: 900;
 }
 
 @font-face {
-    font-family: roboto;
-    src: url(../fonts/Roboto-Medium.ttf);
+  font-family: link;
+  src: url(../fonts/Roboto-Light.ttf);
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: roboto;
+  src: url(../fonts/Roboto-Medium.ttf);
 }
 
 nav {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
 }
 
 main article {
-    margin-right: 150px;
+  margin-right: 150px;
 }
 
 footer {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
 }
 
 footer p {
-    padding-left: 20px;
+  padding-left: 20px;
 }
 
 footer .socials {
-    justify-content: right;
+  justify-content: right;
 }
 
 main::after {
-    display: block;
-    height: 200px;
-    content: "";
+  display: block;
+  height: 200px;
+  content: "";
 }

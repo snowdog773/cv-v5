@@ -1,124 +1,332 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- Stylesheets -->
     <link rel="stylesheet" type="text/css" href="../styles/style.css" />
-    <link rel="stylesheet" type="text/css" media="screen and (min-width: 500px)" href="../styles/tablet.css" />
-    <link rel="stylesheet" type="text/css" media="screen and (min-width: 720px)" href="../styles/laptop.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen and (min-width: 500px)"
+      href="../styles/tablet.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen and (min-width: 720px)"
+      href="../styles/laptop.css"
+    />
 
     <!-- Primary meta tags -->
-    <title>Jon Pitans - Web Designer Software Engineer Javascript Developer</title>
-    <meta name="title" content="Jon Pitans Web Designer">
-    <meta name="description" content="Creating beautiful bespoke websites and innovative business solutions">
+    <title>
+      Jon Pitans - Web Designer Software Engineer Javascript Developer
+    </title>
+    <meta name="title" content="Jon Pitans Web Designer" />
+    <meta
+      name="description"
+      content="Creating beautiful bespoke websites and innovative business solutions"
+    />
 
     <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://jon-pitans-cv-v5.netlify.app/">
-    <meta property="og:title" content="JP Web Design">
-    <meta property="og:description" content="Creating beautiful bespoke websites and innovative business solutions">
-    <meta property="og:image" content="../meta-images/slashjp-logo-500w.png">
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://jon-pitans-cv-v5.netlify.app/" />
+    <meta property="og:title" content="JP Web Design" />
+    <meta
+      property="og:description"
+      content="Creating beautiful bespoke websites and innovative business solutions"
+    />
+    <meta property="og:image" content="../meta-images/slashjp-logo-500w.png" />
 
     <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://jon-pitans-cv-v2.netlify.app/">
-    <meta property="twitter:title" content="JP Web Design">
-    <meta property="twitter:description" content="Creating beautiful bespoke websites and innovative business solutions">
-    <meta property="twitter:image" content="../meta-images/slashjp-logo-500w.png">
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta
+      property="twitter:url"
+      content="https://jon-pitans-cv-v2.netlify.app/"
+    />
+    <meta property="twitter:title" content="JP Web Design" />
+    <meta
+      property="twitter:description"
+      content="Creating beautiful bespoke websites and innovative business solutions"
+    />
+    <meta
+      property="twitter:image"
+      content="../meta-images/slashjp-logo-500w.png"
+    />
 
     <!-- Favicon Code -->
-    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="../meta-images/apple-touch-icon-57x57.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../meta-images/apple-touch-icon-114x114.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../meta-images/apple-touch-icon-72x72.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../meta-images/apple-touch-icon-144x144.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="../meta-images/apple-touch-icon-60x60.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="../meta-images/apple-touch-icon-120x120.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="../meta-images/apple-touch-icon-76x76.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../meta-images/apple-touch-icon-152x152.png" />
-    <link rel="icon" type="image/png" href="../meta-images/favicon-196x196.png" sizes="196x196" />
-    <link rel="icon" type="image/png" href="../meta-images/favicon-96x96.png" sizes="96x96" />
-    <link rel="icon" type="image/png" href="../meta-images/favicon-32x32.png" sizes="32x32" />
-    <link rel="icon" type="image/png" href="../meta-images/favicon-16x16.png" sizes="16x16" />
-    <link rel="icon" type="image/png" href="../meta-images/favicon-128.png" sizes="128x128" />
-    <meta name="application-name" content="&nbsp;"/>
+    <link
+      rel="apple-touch-icon-precomposed"
+      sizes="57x57"
+      href="../meta-images/apple-touch-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon-precomposed"
+      sizes="114x114"
+      href="../meta-images/apple-touch-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon-precomposed"
+      sizes="72x72"
+      href="../meta-images/apple-touch-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon-precomposed"
+      sizes="144x144"
+      href="../meta-images/apple-touch-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon-precomposed"
+      sizes="60x60"
+      href="../meta-images/apple-touch-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon-precomposed"
+      sizes="120x120"
+      href="../meta-images/apple-touch-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon-precomposed"
+      sizes="76x76"
+      href="../meta-images/apple-touch-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon-precomposed"
+      sizes="152x152"
+      href="../meta-images/apple-touch-icon-152x152.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="../meta-images/favicon-196x196.png"
+      sizes="196x196"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="../meta-images/favicon-96x96.png"
+      sizes="96x96"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="../meta-images/favicon-32x32.png"
+      sizes="32x32"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="../meta-images/favicon-16x16.png"
+      sizes="16x16"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="../meta-images/favicon-128.png"
+      sizes="128x128"
+    />
+    <meta name="application-name" content="&nbsp;" />
     <meta name="msapplication-TileColor" content="#FFFFFF" />
-    <meta name="msapplication-TileImage" content="../meta-images/mstile-144x144.png" />
-    <meta name="msapplication-square70x70logo" content="../meta-images/mstile-70x70.png" />
-    <meta name="msapplication-square150x150logo" content="../meta-images/mstile-150x150.png" />
-    <meta name="msapplication-wide310x150logo" content="../meta-images/mstile-310x150.png" />
-    <meta name="msapplication-square310x310logo" content="../meta-images/mstile-310x310.png" />
+    <meta
+      name="msapplication-TileImage"
+      content="../meta-images/mstile-144x144.png"
+    />
+    <meta
+      name="msapplication-square70x70logo"
+      content="../meta-images/mstile-70x70.png"
+    />
+    <meta
+      name="msapplication-square150x150logo"
+      content="../meta-images/mstile-150x150.png"
+    />
+    <meta
+      name="msapplication-wide310x150logo"
+      content="../meta-images/mstile-310x150.png"
+    />
+    <meta
+      name="msapplication-square310x310logo"
+      content="../meta-images/mstile-310x310.png"
+    />
     <!-- End of Favicon Code -->
-</head>
-<body>
+    <script type="module">
+      document.getElementById(
+        "copyright"
+      ).innerHTML = `&copy; Copyright ${new Date().getFullYear()} Jon Pitans`;
+    </script>
+  </head>
+  <body>
     <header>
-        <div class="image-header">
+      <div class="image-header">
         <h1>Jon Pitans</h1>
         <p>Web Designer | Software Engineer | Javascript Developer</p>
-        </div>
-        <div class="animation" aria-hidden="true">
-            <div class="web-designer">Web Designer</div>
-            <div class="software-engineer">Software Engineer</div>
-            <div class="javascript-developer">Javascript Developer</div>
-            <div class="jon-pitans">Jon Pitans</div>
-        </div>
-
+      </div>
+      <div class="animation" aria-hidden="true">
+        <div class="web-designer">Web Designer</div>
+        <div class="software-engineer">Software Engineer</div>
+        <div class="javascript-developer">Javascript Developer</div>
+        <div class="jon-pitans">Jon Pitans</div>
+      </div>
     </header>
     <main>
-        <nav>
-            <a href="../index.html">About Me</a>
-            <a href="../pages/portfolio.html">Portfolio</a>
-            <a href="../pages/contact.html">Contact</a>
-            <a href="../pages/cv.html">CV</a>
-        </nav>
-        <article>
-            <h2>Portfolio</h2>
-            <!-- flex container sets out a container for flexbox -->
-            <div class="flex-container">
-                <!-- portfolio-frame is the window each website is displayed in -->
-              
-                <figure class="portfolio-frame">   
-                    <a href="https://jon-pitans-weather-api-project.netlify.app/" target="_blank">  
-                        <img src="../assets/weather-screenshot.png" alt="Weather In Your Location">
-                        <figcaption>Weather in Your Location
-                        </figcaption>
-                    </a>
-                </figure>
-                <figure class="portfolio-frame">   
-                    <a href="https://jon-pitans-ratm-homage.netlify.app/" target="_blank">  
-                        <img src="../assets/ratm-screenshot.png" alt="Homage Website Project - Rage Against The Machine Homepage.">
-                        <figcaption>Rage Against The Machine Homage
-                        </figcaption>
-                    </a>
-                </figure>
-                <figure class="portfolio-frame">   
-                    <a href="https://jon-pitans-clipboard-homework.netlify.app/" target="_blank">  
-                        <img src="../assets/clipboard-screenshot.png" alt="Clipboard">
-                        <figcaption>Clipboard
-                        </figcaption>
-                    </a>
-                </figure>
-                <figure class="portfolio-frame">   
-                    <a href="https://homework-0502-svg-logo.netlify.app/" target="_blank">  
-                        <img src="../assets/svg-pringle-screenshot.png" alt="Pringles logo in SVG">
-                        <figcaption>Pringles Logo in SVG
-                        </figcaption>
-                    </a>
-                </figure>
-            </div>
-        </article>
+      <nav>
+        <a href="../index.html">About Me</a>
+        <a href="../pages/portfolio.html">Portfolio</a>
+        <a href="../pages/contact.html">Contact</a>
+        <a href="../pages/cv.html">CV</a>
+      </nav>
+      <article>
+        <h2>Portfolio</h2>
+
+        <!-- flex container sets out a container for flexbox -->
+        <div class="flex-container">
+          <!-- portfolio-frame is the window each website is displayed in -->
+
+          <figure class="portfolio-frame">
+            <a href="https://20squared.pitans.co.uk" target="_blank">
+              <img
+                src="../assets/20squared-screenshot.png"
+                alt="20 Squared Pixel Art"
+              />
+              <figcaption>20 Squared - a Pixel Art Game</figcaption>
+            </a>
+          </figure>
+
+          <figure class="portfolio-frame">
+            <a
+              href="https://climate-and-geological-event-dispatch.netlify.app/"
+              target="_blank"
+            >
+              <img
+                src="../assets/caged-screenshot.png"
+                alt="Climate and Geological Event Dispatch"
+              />
+              <figcaption>Climate & Geological Event Dispatch</figcaption>
+            </a>
+          </figure>
+
+          <figure class="portfolio-frame">
+            <a
+              href="https://pitans-hackathon-divorce-timer.netlify.app/"
+              target="_blank"
+            >
+              <img src="../assets/hackathon-screenshot.png" alt="" />
+              <figcaption>
+                Divorce Timer - 8 Hour Group Hackathon Project
+              </figcaption>
+            </a>
+          </figure>
+
+          <figure class="portfolio-frame">
+            <a
+              href="https://jon-pitans-weather-api-project.netlify.app/"
+              target="_blank"
+            >
+              <img
+                src="../assets/weather-screenshot.png"
+                alt="Weather In Your Location"
+              />
+              <figcaption>Weather in Your Location</figcaption>
+            </a>
+          </figure>
+
+          <figure class="portfolio-frame">
+            <a
+              href="https://simpsons-quote-o-matic.netlify.app/"
+              target="_blank"
+            >
+              <img
+                src="../assets/simpsons-screenshot.png"
+                alt="The Simpsons Quote-o-Matic"
+              />
+              <figcaption>The Simpsons Quote-o-Matic</figcaption>
+            </a>
+          </figure>
+
+          <figure class="portfolio-frame">
+            <a href="https://birthday-o-matic.netlify.app/" target="_blank">
+              <img
+                src="../assets/birthday-screenshot.png"
+                alt="Birthday Countdown O Matic"
+              />
+              <figcaption>The Birthday Countdown-o-Matic</figcaption>
+            </a>
+          </figure>
+
+          <figure class="portfolio-frame">
+            <a href="https://pitans-tictactoe.netlify.app/" target="_blank">
+              <img
+                src="../assets/tictactoe-screenshot.png"
+                alt="Tic Tac Toe - Simple React Game"
+              />
+              <figcaption>Tic Tac Toe - Simple React Game</figcaption>
+            </a>
+          </figure>
+
+          <figure class="portfolio-frame">
+            <a
+              href="https://jon-pitans-ratm-homage.netlify.app/"
+              target="_blank"
+            >
+              <img
+                src="../assets/ratm-screenshot.png"
+                alt="Homage Website Project - Rage Against The Machine Homepage."
+              />
+              <figcaption>Rage Against The Machine Homage</figcaption>
+            </a>
+          </figure>
+          <figure class="portfolio-frame">
+            <a
+              href="https://jon-pitans-clipboard-homework.netlify.app/"
+              target="_blank"
+            >
+              <img src="../assets/clipboard-screenshot.png" alt="Clipboard" />
+              <figcaption>Clipboard Corporate Website</figcaption>
+            </a>
+          </figure>
+          <figure class="portfolio-frame">
+            <a
+              href="https://homework-0502-svg-logo.netlify.app/"
+              target="_blank"
+            >
+              <img
+                src="../assets/svg-pringle-screenshot.png"
+                alt="Pringles logo in SVG"
+              />
+              <figcaption>Pringles Logo in SVG</figcaption>
+            </a>
+          </figure>
+        </div>
+      </article>
     </main>
     <footer>
-        <div class="socials">
-        <a class="facebook" href="https://www.facebook.com/Jon-Pitans-Web-Developer-106570028528635" target="_blank" rel="nofollow">Facebook</a>
-        <a class="twitter" href="https://twitter.com/jonpitans" target="_blank" rel="nofollow">Twitter</a>
-        <a class="linkedin" href="https://www.linkedin.com/in/jon-pitans-35b6281b/" target="_blank" rel="nofollow">Linkedin</a>
-        </div>
-        <div class="copyright">
-        <p>&copy; Copyright 2021 Jon Pitans</p>
-        </div>
+      <div class="socials">
+        <a
+          class="facebook"
+          href="https://www.facebook.com/Jon-Pitans-Web-Developer-106570028528635"
+          target="_blank"
+          rel="nofollow"
+          >Facebook</a
+        >
+        <a
+          class="twitter"
+          href="https://twitter.com/jonpitans"
+          target="_blank"
+          rel="nofollow"
+          >Twitter</a
+        >
+        <a
+          class="linkedin"
+          href="https://www.linkedin.com/in/jon-pitans-35b6281b/"
+          target="_blank"
+          rel="nofollow"
+          >Linkedin</a
+        >
+      </div>
+      <div>
+        <p id="copyright"></p>
+      </div>
     </footer>
-</body>
+  </body>
 </html>

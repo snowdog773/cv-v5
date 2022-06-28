@@ -1,5 +1,5 @@
 :root {
-  --white: #dedede;
+  --white: #fff;
   --light-text: #555555;
   --dark-header: #121212;
   --white-text: #efefef;
@@ -103,6 +103,7 @@ header .image-header {
   margin-left: 0px;
   border-bottom-right-radius: 250px;
   border-top-right-radius: 250px;
+  box-shadow: 0 0 20px 30px #fff;
 }
 
 header .animation {

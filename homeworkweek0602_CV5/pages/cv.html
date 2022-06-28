@@ -52,6 +52,12 @@
     <meta name="msapplication-wide310x150logo" content="../meta-images/mstile-310x150.png" />
     <meta name="msapplication-square310x310logo" content="../meta-images/mstile-310x310.png" />
     <!-- End of Favicon Code -->
+
+    <script type="module">
+        document.getElementById(
+          "copyright"
+        ).innerHTML = `&copy; Copyright ${new Date().getFullYear()} Jon Pitans`;
+      </script>
 </head>
 <body>
     <header>
@@ -78,10 +84,23 @@
             <h2>CV</h2>
                 <section>
                     <h2>Personal Information</h2>
-                    <p>My personal details can be obtained by making a request through my <a href="../pages/contact.html">contact form</a>.</p>
+                    <p><a href="https://pitans.co.uk/pdf/jonPitansCV.pdf" target="_blank">Download concise CV in PDF here</a>.</p>
                 </section>
                 <section>
                 <h2>Education</h2>
+                <h3>2021-2: The Jump Digital School</h3>
+                Developing and deploying full-stack web applications and websites using:
+                <ul>
+                <li>HTML5: including accessibility best practices.</li>
+                <li>CSS 3: Responsive design, Flexbox & CSS Grid, SASS, CSS Modules and CSS frameworks.</li>
+                <li>JavaScript: ES6+, AJAX, API’s - REST and GraphQL, Animation (Greensock & Three.js),
+                Graphing (d3.js) & Realtime (websockets and socket.io), TypeScript, Cypress, Jest, Webpack,
+                OAuth.</li>
+                <li>React: hooks, context, Material UI.</li>
+                <li>Node.js: Vanilla & Express.</li>
+                <li>Databases: SQL - Postgres, NoSQL - MongoDB with Mongoose.js, Redis, Firebase.</li>
+                <li>DevOps: Docker & Kubernetes, Heroku (inc. pipelines), serverless (inc. Netlify).</li>
+                </ul>
                 <h3>2006-7: Manchester MIDI School</h3>
                     <ul>
                         <li>HND Music Construction and Production &lpar;distinction&rpar;</li>
@@ -109,7 +128,7 @@
                         sourcing goods, sales ,customer service, logistics, accounting, marketing and a myriad of 
                         fixing and problem solving.
                         </p>
-                    <h3>Yard Supervisor</h3>
+                    <h3>Supervisor</h3>
                         <h4>Keyline Builders Merchants 2014 - 15</h4>
                         <p>Responsible for overseeing all yard sales activities and driver deliveries. Managing a team
                             of two drivers and two sales assistants I was responsible for all yard sales, daily stocktaking,
@@ -210,9 +229,9 @@
         <a class="twitter" href="https://twitter.com/jonpitans" target="_blank" rel="nofollow">Twitter</a>
         <a class="linkedin" href="https://www.linkedin.com/in/jon-pitans-35b6281b/" target="_blank" rel="nofollow">Linkedin</a>
         </div>
-        <div class="copyright">
-        <p>&copy; Copyright 2021 Jon Pitans</p>
-        </div>
+        <div>
+            <p id="copyright"></p>
+          </div>
     </footer>
 </body>
 </html>
