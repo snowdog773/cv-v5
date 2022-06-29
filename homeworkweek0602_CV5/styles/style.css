@@ -267,3 +267,8 @@ figcaption {
 a {
   text-decoration: none;
 }
+
+form.contact span {
+  font-style: italic;
+  font-size: 10pt;
+}

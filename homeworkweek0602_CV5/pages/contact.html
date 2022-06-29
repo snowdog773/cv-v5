@@ -156,6 +156,7 @@
         "copyright"
       ).innerHTML = `&copy; Copyright ${new Date().getFullYear()} Jon Pitans`;
     </script>
+    <script src="../scripts/formHandler.js" type="module"></script>
   </head>
   <body>
     <header>
@@ -179,34 +180,32 @@
       </nav>
       <article>
         <h2>Contact</h2>
-        <form
-          class="contact"
-          method="POST"
-          action="https://us-central1-fir-ac2be.cloudfunctions.net/formReader"
-        >
-          <label for="name">Name</label>
+        <form class="contact">
+          <label for="name">Name <span>(reqd)</span></label>
           <input type="text" id="name" name="name" required />
 
           <label for="org">Organisation</label>
           <input type="text" id="org" name="org" />
 
-          <label for="tel">Telephone</label>
-          <input type="tel" id="tel" name="tel" required />
+          <label for="phone">Telephone</label>
+          <input type="phone" id="phone" name="phone" />
 
-          <label for="email">Email</label>
+          <label for="email">Email <span>(reqd)</span></label>
           <input type="email" id="email" name="email" required />
 
-          <label for="message">Type your message here</label>
+          <label for="message"
+            >Type your message here <span>(reqd)</span></label
+          >
           <textarea
             id="message"
             name="message"
             rows="6"
             cols="60"
             required
-            placeholder="This contact form is currently in the testing phase and is not connected to a server. To contact me please use the contact details in the Personal Information section of this page."
           ></textarea>
           <div class="button-wrapper">
-            <button type="submit">Submit</button>
+            <button id="button">Submit</button>
+            <div id="submitMessage"></div>
           </div>
         </form>
       </article>
