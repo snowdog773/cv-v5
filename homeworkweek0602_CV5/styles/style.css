@@ -109,7 +109,7 @@ nav a:hover {
 
 main article {
   margin: 0 30px;
-  text-align: justify;
+  /* text-align: justify; */
   line-height: 1.4;
 }
 
@@ -215,7 +215,15 @@ form label {
 button {
   display: block;
   width: 200px;
-  background-color: var(--white);
+  color: var(--white);
+  background-color: var(--button);
+  border-radius: 15px;
+  border-style: none;
+  padding: 5px 0;
+}
+
+button:hover {
+  background-color: #555555;
 }
 
 .flex-container {
@@ -266,6 +274,10 @@ figcaption {
 
 a {
   text-decoration: none;
+}
+
+a.underline {
+  text-decoration: underline;
 }
 
 form.contact span {

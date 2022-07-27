@@ -27,9 +27,9 @@ nav {
   grid-template-rows: 1fr;
 }
 
-main article {
+/* main article {
   margin-right: 150px;
-}
+} */
 
 footer {
   display: flex;

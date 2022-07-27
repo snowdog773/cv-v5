@@ -71,7 +71,7 @@
 }
 
 nav {
-  position: fixed;
+  position: absolute;
   top: 0;
   right: 0;
   width: 50%;
@@ -136,7 +136,15 @@ header p {
 }
 
 main {
-  margin: 100px 30% 0 10%;
+  margin: 100px auto;
+}
+
+main article {
+  margin: 0 15%;
+}
+
+form.contact {
+  grid-template-columns: 1fr 3fr;
 }
 
 .flex-container {
